@@ -1,6 +1,5 @@
 package ContactManagerExample;
 
-import jdk.jfr.events.FileReadEvent;
 
 public class ContactsManager {
 	Contact[] myfriendsContact;
