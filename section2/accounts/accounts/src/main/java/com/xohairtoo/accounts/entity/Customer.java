@@ -1,13 +1,11 @@
 package com.xohairtoo.accounts.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
 
+@Entity
 @Getter @Setter @ToString @AllArgsConstructor @NoArgsConstructor
-public class Customer extends BaseEntity {
+public class Customer extends BaseEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -15,6 +13,8 @@ public class Customer extends BaseEntity {
     private Long customerId;
 
     private String name;
+
+    private String email;
 
     @Column(name = "mobile_number")
     private String mobileNumber;
