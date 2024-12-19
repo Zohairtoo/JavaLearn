@@ -4,7 +4,7 @@ import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-@Data @AllArgsConstructor
+@Data
 public class CustomerDto {
 
     private String name;
@@ -12,4 +12,6 @@ public class CustomerDto {
     private String email;
 
     private String mobileNumber;
+
+    private AccountsDto accountsDto;
 }
