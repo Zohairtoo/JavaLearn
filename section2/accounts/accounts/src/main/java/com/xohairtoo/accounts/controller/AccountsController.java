@@ -31,9 +31,9 @@ public class AccountsController {
 
     private IAccountsService iAccountsService;
 
-    @GetMapping("/sayHello")
-    public String syaHello(){
-        return "Hi from Zohair";
+    @GetMapping("/sayHelloAccounts")
+    public String syaHello() {
+        return "Hi from Zohair from accounts microservice side";
     }
 
     @Operation(summary = "Create a new account")
