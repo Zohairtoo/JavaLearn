@@ -9,6 +9,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/section4.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/accounts/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/accounts/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/accounts/Dockerfile" afterDir="false" />
@@ -140,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735496994049</updated>
-      <workItem from="1735496995420" duration="3455000" />
+      <workItem from="1735496995420" duration="6379000" />
     </task>
     <servers />
   </component>
