@@ -5,93 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="941799f2-2b38-4a3d-bf72-92a398a29c47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/section4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/AccountsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/audit/AuditAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/constants/AccountsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/controller/AccountsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/dto/AccountsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/dto/CustomerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/entity/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/exception/CustomerAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/mapper/AccountsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/mapper/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/repository/AccountsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/service/IAccountsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/xohairtoo/accounts/service/impl/AccountsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/src/test/java/com/xohairtoo/accounts/AccountsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/CardsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/audit/AuditAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/constants/CardsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/controller/CardsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/dto/CardsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/entity/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/exception/CardAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/mapper/CardsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/repository/CardsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/service/ICardsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/xohairtoo/cards/service/impl/CardsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/src/test/java/com/xohairtoo/cards/CardsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/LoansApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/audit/AuditAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/constants/LoansConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/controller/LoansController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/dto/LoansDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/entity/Loans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/exception/LoanAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/mapper/LoansMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/repository/LoansRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/service/ILoansService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/xohairtoo/loans/service/impl/LoansServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loans/src/test/java/com/xohairtoo/loans/LoansApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../section2/cards/src/main/java/com/xohairtoo/cards/controller/CardsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section2/cards/src/main/java/com/xohairtoo/cards/controller/CardsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../section2/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../section2/cards/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../section2/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../section2/loans/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +21,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 1
@@ -122,9 +46,36 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Spring Boot.AccountsApplication">
+    <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="accounts" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xohairtoo.accounts.AccountsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cards" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xohairtoo.cards.CardsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoansApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="loans" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xohairtoo.loans.LoansApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -141,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735496994049</updated>
-      <workItem from="1735496995420" duration="6379000" />
+      <workItem from="1735496995420" duration="12270000" />
     </task>
     <servers />
   </component>

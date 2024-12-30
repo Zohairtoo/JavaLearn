@@ -11,6 +11,7 @@
 	<groupId>com.xohairtoo</groupId>
 	<artifactId>cards</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>cards</name>
 	<description>micro service for cards</description>
 	<url/>
@@ -81,6 +82,16 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.4</version>
+				<configuration>
+					<to>
+						<image>zohairtoo/${project.artifactId}:s1</image>
+					</to>
 				</configuration>
 			</plugin>
 		</plugins>
