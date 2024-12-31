@@ -1,0 +1,29 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+#To catch value via @Value
+build:
+  version: "1.0"
+
+#To catch properties via @configurationProperties
+accounts:
+  message: "Hello from accounts service from Zohair"
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "aQ5eI@example.com"
+  onCallSupport:
+    - 888-888-8888
