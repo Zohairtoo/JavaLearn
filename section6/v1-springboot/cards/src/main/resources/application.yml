@@ -15,3 +15,22 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active: "qa"
+
+  #To catch value via @Value
+  build:
+    version: "3.0"
+
+  #To catch properties via @configurationProperties
+  cards:
+    message: "Hello from accounts service from Zohair"
+    contactDetails:
+      name: "John Doe - Developer"
+      email: "aQ5eI@example.com"
+    onCallSupport:
+      - 888-888-8888
