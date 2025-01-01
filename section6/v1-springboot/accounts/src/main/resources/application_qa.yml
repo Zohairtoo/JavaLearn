@@ -1,0 +1,18 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+#To catch value via @Value
+build:
+  version: "2.0"
+
+#To catch properties via @configurationProperties
+accounts:
+  message: "Hello from accounts service from Zohair from qa environment"
+  contactDetails:
+    name: "John Doe - Qa"
+    email: "aQ5eI_qa@example.com"
+  onCallSupport:
+    - 777-777-7777
+    - 555-555-5555
