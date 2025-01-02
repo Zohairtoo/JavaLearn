@@ -14,10 +14,9 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-  config:
-    import:
-      - "application_qa.yml"
-      - "application_prod.yml"
+  application:
+    name: "loans"
   profiles:
-    active:
-      - "qa"
+    active: "prod"
+  config:
+    import: "optional:configserver:http://localhost:8071/"

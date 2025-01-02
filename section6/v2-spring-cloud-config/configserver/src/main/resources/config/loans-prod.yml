@@ -4,9 +4,9 @@ build:
 
 #To catch properties via @configurationProperties
 loans:
-  message: "Hello from loans service from Zohair from qa environment"
+  message: "Hello from loans service from Zohair from prod environment"
   contactDetails:
-    name: "John Doe - Qa"
+    name: "John Doe - Prod"
     email: "aQ5eI_qa@example.com"
   onCallSupport:
     - 777-777-7777
