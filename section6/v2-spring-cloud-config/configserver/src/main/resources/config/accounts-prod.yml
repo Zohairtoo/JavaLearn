@@ -1,0 +1,13 @@
+#To catch value via @Value
+build:
+  version: "1.0"
+
+#To catch properties via @configurationProperties
+accounts:
+  message: "Hello from accounts service from Zohair from production environment"
+  contactDetails:
+    name: "John Doe - Production"
+    email: "aQ5eI_prod@example.com"
+  onCallSupport:
+    - 999-999-9999
+    - 111-111-1111

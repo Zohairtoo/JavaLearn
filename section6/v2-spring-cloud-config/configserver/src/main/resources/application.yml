@@ -1,0 +1,14 @@
+#This naming is very important, the config server will be used via this name
+spring:
+  application:
+    name: "configserver"
+  profiles:
+    active: native #Native will actually store the configuration in classpath
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: "classpath:/config"
+
+server:
+  port: 8071
