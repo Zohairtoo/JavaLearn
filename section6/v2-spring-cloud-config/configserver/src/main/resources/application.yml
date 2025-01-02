@@ -3,13 +3,23 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native #Native will actually store the configuration in classpath
+    #active: native #Native will actually store the configuration in classpath and file system.
+    active: git
   cloud:
     config:
       server:
         native:
-          #search-locations: "file:src/main/resources/config" for file system
-          search-locations: "classpath:/config"
+        #search-locations: "file:src/main/resources/config" for file system
+#        search-locations: "classpath:/config"
+        git:
+          uri: "https://github.com/eazybytes/eazybytes-config.git"
+          default-label: main
+          timeout: 5
+          clone-on-start: true #clone the repo on startup
+          force-pull: true
+
+encrypt:
+  key: "1234567AA012345678901234g678X012"
 
 server:
   port: 8071

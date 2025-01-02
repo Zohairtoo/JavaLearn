@@ -7,7 +7,7 @@ accounts:
   message: "Hello from accounts service from Zohair from production environment"
   contactDetails:
     name: "John Doe - Production"
-    email: "{cipher}0c6616b007c361cc263ae7041a1cf6f13494d9a355b03d51b6b380d8ce8c68f9b086dca6c2729fc9350c8a8f85cb261e"
+    email: "0c6616b007c361cc263ae7041a1cf6f13494d9a355b03d51b6b380d8ce8c68f9b086dca6c2729fc9350c8a8f85cb261e"
   onCallSupport:
     - 999-999-9999
     - 111-111-1111
