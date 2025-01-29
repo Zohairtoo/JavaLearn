@@ -1,0 +1,53 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: "cards"
+  profiles:
+    active: "prod"
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+
+eureka:
+  instance:
+    #we want to show actual ip in eureka so that other microservice can connect with ipaddress
+    prefer-ip-address: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  #this is basically making the acutuator URL control the graceful shutdown
+  endpoint:
+    shutdown:
+      access: unrestricted
+  #this will open up the environment information about app
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: "account"
+    description: "Bank cards application"
+    version: "1.0.0"
