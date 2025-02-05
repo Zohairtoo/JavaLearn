@@ -110,7 +110,7 @@
 				<version>3.4.4</version>
 				<configuration>
 					<to>
-						<image>zohairtoo/${project.artifactId}:s6</image>
+						<image>zohairtoo/${project.artifactId}:s8</image>
 					</to>
 				</configuration>
 			</plugin>
