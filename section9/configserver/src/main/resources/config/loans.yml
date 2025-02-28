@@ -1,0 +1,13 @@
+#To catch value via @Value
+  build:
+    version: "3.0"
+
+  #To catch properties via @configurationProperties
+  cards:
+    message: "Hello from loans service from Zohair"
+    contactDetails:
+      name: "John Doe - Developer"
+      email: "aQ5eI@example.com"
+    onCallSupport:
+      - 666-666-6666
+      - 444-444-4444
